@@ -16,7 +16,7 @@
         >Github.</a>
       </p>
 
-      <p>I am also an independent game developer, you can view my work at Pixelbark Games.</p>
+      <p>I am also an independent game developer, you can view my work at <a href="https://pixelbark.games">Pixelbark Games</a>.</p>
 
       <p>
         You can follow me on
@@ -25,16 +25,14 @@
 
       <p>
         Please send any business enquiries to
-        <a
-          href="mailto:dan@hutchinson.io"
-        >dan@hutchinson.io.</a>
+        <a href="mailto:dan@hutchinson.io">dan@hutchinson.io.</a>
       </p>
     </div>
   </div>
 </template>
 
 <script lang="ts">
-import { Component, Vue } from 'vue-property-decorator';
+import { Component, Vue } from "vue-property-decorator";
 
 @Component
 export default class App extends Vue {}
@@ -44,11 +42,11 @@ export default class App extends Vue {}
 @import url("https://fonts.googleapis.com/css?family=Comfortaa:400,700");
 
 $easing: cubic-bezier(0.445, 0.05, 0.55, 0.95);
-$dark-grey: #282C34;
-$white: #BBC5CB;
-$primary-color: #CD5C63;
-$secondary-color: #8EBF67;
-$tertiary-color: #C1895A;
+$dark-grey: #282c34;
+$white: #bbc5cb;
+$primary-color: #cd5c63;
+$secondary-color: #8ebf67;
+$tertiary-color: #c1895a;
 
 body {
   font-family: "Comfortaa";
