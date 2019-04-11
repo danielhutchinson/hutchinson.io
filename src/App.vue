@@ -17,7 +17,7 @@
         >Github.</a>
       </p>
 
-      <p>I am also an independent game developer, you can view my work at <a href="https://pixelbark.games" target="_blank">Pixelbark Games</a>.</p>
+      <p>I am also an independent game developer, you can see my games over at <a href="https://pixelbark.games" target="_blank">Pixelbark Games</a>.</p>
 
       <p>
         You can follow me on
@@ -33,7 +33,7 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue } from "vue-property-decorator";
+import { Component, Vue } from 'vue-property-decorator';
 
 @Component
 export default class App extends Vue {}
