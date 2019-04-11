@@ -19,7 +19,10 @@
 
       <p>
         I am also an independent game developer, you can see my games over at
-        <a href="https://pixelbark.games" target="_blank">Pixelbark Games</a>.
+        <a
+          href="https://pixelbark.games"
+          target="_blank"
+        >Pixelbark Games</a>.
       </p>
 
       <p>
@@ -31,12 +34,17 @@
         Please send any business enquiries to
         <a href="mailto:dan@hutchinson.io">dan@hutchinson.io.</a>
       </p>
+
+      <p>
+        If you're a recruiter you can attempt to contact me on
+        <a href="https://www.linkedin.com/in/danhutch/" target="_blank">LinkedIn</a>
+      </p>
     </div>
   </div>
 </template>
 
 <script lang="ts">
-import { Component, Vue } from "vue-property-decorator";
+import { Component, Vue } from 'vue-property-decorator';
 
 @Component
 export default class App extends Vue {}
@@ -52,7 +60,8 @@ $primary-color: #cd5c63;
 $secondary-color: #8ebf67;
 $tertiary-color: #c1895a;
 
-body, html {
+body,
+html {
   font-family: "Comfortaa";
   line-height: 1.75;
   color: $white;
