@@ -17,7 +17,10 @@
         >Github.</a>
       </p>
 
-      <p>I am also an independent game developer, you can see my games over at <a href="https://pixelbark.games" target="_blank">Pixelbark Games</a>.</p>
+      <p>
+        I am also an independent game developer, you can see my games over at
+        <a href="https://pixelbark.games" target="_blank">Pixelbark Games</a>.
+      </p>
 
       <p>
         You can follow me on
@@ -33,7 +36,7 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue } from 'vue-property-decorator';
+import { Component, Vue } from "vue-property-decorator";
 
 @Component
 export default class App extends Vue {}
@@ -49,7 +52,7 @@ $primary-color: #cd5c63;
 $secondary-color: #8ebf67;
 $tertiary-color: #c1895a;
 
-body {
+body, html {
   font-family: "Comfortaa";
   line-height: 1.75;
   color: $white;
@@ -95,12 +98,19 @@ h2 {
 }
 
 .wrapper {
-  padding: 10em 10em 3em 10em;
-  width: 45%;
+  padding-top: 3em;
+  width: 90%;
+  margin: 0 auto;
+
+  @media screen and (min-width: 768px) {
+    padding: 10em 10em 3em 10em;
+    width: 60%;
+    margin: 0;
+  }
 }
 
 .bubble {
-  position: absolute;
+  position: fixed;
   top: -350px;
   left: -250px;
   border-radius: 100%;
