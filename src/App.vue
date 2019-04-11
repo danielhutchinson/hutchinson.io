@@ -1,5 +1,6 @@
 <template>
   <div class="wrapper">
+    <div class="bubble"></div>
     <h1>Hi.</h1>
     <h2>My name is Dan Hutchinson.</h2>
     <div class="body-text">
@@ -16,7 +17,7 @@
         >Github.</a>
       </p>
 
-      <p>I am also an independent game developer, you can view my work at <a href="https://pixelbark.games">Pixelbark Games</a>.</p>
+      <p>I am also an independent game developer, you can view my work at <a href="https://pixelbark.games" target="_blank">Pixelbark Games</a>.</p>
 
       <p>
         You can follow me on
@@ -53,6 +54,7 @@ body {
   line-height: 1.75;
   color: $white;
   background: $dark-grey;
+  overflow-x: hidden;
 }
 
 h1,
@@ -94,7 +96,18 @@ h2 {
 
 .wrapper {
   padding: 10em 10em 3em 10em;
-  width: 740px;
+  width: 45%;
+}
+
+.bubble {
+  position: absolute;
+  top: -350px;
+  left: -250px;
+  border-radius: 100%;
+  background: lighten($dark-grey, 10%);
+  opacity: 0.1;
+  height: 1000px;
+  width: 1000px;
 }
 
 @keyframes fade-in {
