@@ -13,7 +13,7 @@
         <a
           href="https://github.com/danielhutchinson"
           target="_blank"
-        >Github</a>
+        >Github.</a>
       </p>
 
       <p>I am also an independent game developer, you can view my work at Pixelbark Games.</p>
@@ -34,7 +34,7 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue } from "vue-property-decorator";
+import { Component, Vue } from 'vue-property-decorator';
 
 @Component
 export default class App extends Vue {}
