@@ -22,7 +22,7 @@
         <a
           href="https://pixelbark.games"
           target="_blank"
-        >Pixelbark Games</a>.
+        >Pixelbark Games.</a>
       </p>
 
       <p>
@@ -32,19 +32,18 @@
 
       <p>
         Please send any business enquiries to
-        <a href="mailto:dan@hutchinson.io">dan@hutchinson.io.</a>
-      </p>
-
-      <p>
-        If you're a recruiter you can attempt to contact me on
-        <a href="https://www.linkedin.com/in/danhutch/" target="_blank">LinkedIn</a>
+        <a href="mailto:dan@hutchinson.io">dan@hutchinson.io</a> and if you're a recruiter you can attempt to contact me on
+        <a
+          href="https://www.linkedin.com/in/danhutch/"
+          target="_blank"
+        >LinkedIn.</a>
       </p>
     </div>
   </div>
 </template>
 
 <script lang="ts">
-import { Component, Vue } from 'vue-property-decorator';
+import { Component, Vue } from "vue-property-decorator";
 
 @Component
 export default class App extends Vue {}
