@@ -108,6 +108,7 @@ h2 {
   opacity: 0.1;
   height: 1000px;
   width: 1000px;
+  animation: pulse 7s $easing infinite;
 }
 
 @keyframes fade-in {
@@ -119,6 +120,20 @@ h2 {
   100% {
     margin-top: 0;
     opacity: 1;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
   }
 }
 </style>
